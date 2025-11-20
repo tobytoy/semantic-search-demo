@@ -10,15 +10,12 @@ from PIL import Image
 import streamlit as st
 from pathlib import Path
 from sentence_transformers import SentenceTransformer, util
-from hydra.core.global_hydra import GlobalHydra
 
 from dotenv import load_dotenv
 from huggingface_hub import login
 load_dotenv()
 login(token=os.getenv("HFTOKEN"))
 
-if GlobalHydra.instance().is_initialized():
-    GlobalHydra.instance().clear()
 
 device = 'cpu'
 
