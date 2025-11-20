@@ -3,9 +3,10 @@ The demo for semantic search.
 
 # 啟動
 1. 準備 env，填入正確的值
-2. 安裝 python 環境
-3. `python main.py`
-4. 如果要 video 服務到 vds/videos，跑 `python -m http.server 8040`
+2. 裝 torch `pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu`
+3. 安裝 python 環境 `pip install -r requirements.txt`
+4. `python main.py`
+5. 如果要 video 服務到 vds/videos，跑 `python -m http.server 8040`
 
 
 

@@ -5,5 +5,4 @@ Pillow
 streamlit
 python-dotenv
 gdown
-torch==2.2.0+cpu
 sentence-transformers
