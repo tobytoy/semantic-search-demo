@@ -1,5 +1,5 @@
 opencv-python-headless
-pickle5
+pypickle
 pandas
 Pillow
 streamlit
