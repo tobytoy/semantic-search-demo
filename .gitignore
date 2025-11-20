@@ -205,3 +205,16 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# for mac 
+.DS_Store
+__MACOSX/
+.vscode/
+
+# for data
+datas/
+embeddings/
+vds/
+archive.zip
+
